@@ -15,6 +15,7 @@
   top: 0;
   left: 0;
   border: 1px solid transparent;
+  background-color: white;
   width: 100%;
   height: 160px;
   position: sticky;
@@ -113,6 +114,7 @@
 #dualView {
   text-decoration: underline;
   font-weight: bold;
+  
 }
 #filter {
   font-weight: bold;
@@ -294,7 +296,7 @@ display: flex;
 
 .item_image {
   width: 100%;
-  height: 380px;
+  height: auto;
 }
 
 .item_overlay {
