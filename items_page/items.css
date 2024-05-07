@@ -29,7 +29,7 @@
 
 #logo {
     border: 1px solid transparent;
-     width: 23%;
+     width: 25%;
      height: 80%;
      margin-top: 2%;
      margin-left: 1%;
@@ -37,7 +37,7 @@
 }
 #img3{
     width: 20%;
-    height: 40%;
+    height: auto;
     display: inline-block;
     border: 1px solid transparent;
     position: absolute;
