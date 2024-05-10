@@ -21,7 +21,7 @@
             height: 90px;
             position: sticky;
             transition: 0.5s;
-            z-index: 2;
+            z-index: 25000 !important;
         }
 
         #navB:hover {
