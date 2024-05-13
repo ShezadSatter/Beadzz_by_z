@@ -428,6 +428,7 @@ hr {
   margin-top: 50px;
   padding: 50px;
   border-top: 1px dashed #ddd;
+  text-align: center;
 }
 #footer p {
   text-align: center;
@@ -438,28 +439,7 @@ hr {
   margin: 0px auto;
   padding: 20px 0 45px 0;
 }
-/* #############footer newsletter############# */
-#newsletter {
-  margin: 10px auto 0 auto;
-  padding: 2px;  
-}
-#foo_task {
-  color: #888;
-  line-height: 1px;
-  transform: scale(0.8, 0.9);
-}
-#foo_input {
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #1e1e1e;
-  width: 100%;
-  padding-top: 0px;
-}
-#foo_input:focus {
-  padding: 12px 0;
-  border-bottom: 2px solid #1e1e1e;
-  transition:border-bottom .2s, padding .3s;
-}
+
 
 /* #############footer social############# */
 #foo_social {
@@ -478,7 +458,7 @@ hr {
 .foo_social_icon {
   display: flex;
   gap: 5%;
-  padding: 25px 0;
+  padding: 100px 0;
 }
 .foo_social_icon > div:hover {
   opacity: 0.6;
@@ -488,13 +468,14 @@ hr {
   margin: auto;
 }
 #foo_social img {
-  width: 70%;   
+  width: 30%;   
 }
 
 /* #############foo_about############# */
 #foo_about {
   display: flex;
   padding: 0 40px;
+  text-align: center;
 }
 .foo_about_items {
   width: 33%;
@@ -560,10 +541,11 @@ hr {
 
 /* #############footer social############# */
 #foo_social {
-  margin : 60px auto;
+  margin : 30px auto;
   width: 80%;
   display: flex;
   gap: 10px;
+  text-align: center;
 }
 #foo_social p {
   color: #444;
@@ -585,13 +567,14 @@ hr {
   margin: auto;
 }
 #foo_social img {
-  width: 70%;   
+  width: 50%;   
 }
 
 /* #############foo_about############# */
 #foo_about {
   display: flex;
   padding: 0 40px;
+  text-align: center;
 }
 .foo_about_items {
   width: 33%;
